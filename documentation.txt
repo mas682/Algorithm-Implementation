@@ -1,0 +1,18 @@
+I decided to first use a DLB to store the cars at the end based off of their vin numbers.  I decided to use
+this as the runtime is at worst the length of the alphabet * the length of the keys.  I chose this over something such
+as a r way trie as the vin numbers will most likely be very sparse.  I used the indexable priority queue to determine which
+car had the least miles, lowest price, and the lowest price or miles by brand/model.  To make the queue indexable so the
+objects could be updated, I stored the indexes into the car itself.  I had 4 fields: pricePQIndex, milesPQIndex, makeModelPriceIndex,
+and makeModelMilesIndex to store the indexes.  These will add a very small amount of memory while making the cars in the queue easily
+accessible.  To sort out which car based of the brand/model had the lowest price or miles, I used a hash table.  Considering that runtime
+could be as bad as theta of n, I made sure to follow the requirments of a good hash function.  I made sure the table(array) was never
+more than half full, I used double hashing, and I made sure to utilize the whole string.  I also kept an array of prime numbers to use to resize
+the array to.  I could have calculated the primes in a method but I figured it would take a decent amount of time when resizing.  I only 
+went up to 1543 as it is probably unlikely someone will be storing over 700 car brands but if they were, I could of changed it so there was a method
+that calculated the next largest prime.  I did all of this to make it as unlikely as possible that two car brands/models would hash to the same spot 
+trying to keep runtime as close to 1 as possible.  In the worst case, the hash would have to go to every value for n/2 but this is extremely unlikely
+given the securities that I put in place.  In the hash table, there is one for the brands that leads to another table for the models.  At each model, 
+2 indexable priority queues were stored to keep track of each the lowest cost of a particular model and the lowest miles of a particular model.  This takes 
+a lot of space but I did not see any other way around it.  I strongly considered using another DLB or r way trie but the runtimes in the best case would not 
+be quite as good as using the hash table.  Considering the runtime of inserting, it should be approximately 4 lg n, or simply lg n when ignoring the multiplicative
+factor.  Memory would be somewhere around 5 n as storing 4 priority queues, and all the cars in the DLB.  
