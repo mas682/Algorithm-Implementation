@@ -1,0 +1,32 @@
+Matt Stropkey												
+												
+												
+	MyLZW (Do nothing)			MyLZW (reset)			MyLZW(Monitor)			LZW.java		
+File Name	file size	compressed size	compression ratio	file size	compressed size	compression ratio	file size	compressed size	compressed ratio	file size	compressed size	compressed ratio
+all.tar	2.9 MB	1.7 MB	1.706	2.9 MB	1.12 MB	2.589	2.9 MB	1.73 MB	1.676	2.9 MB	1.76 MB	1.648
+												
+assig2.doc	85.0 KB	39.1 KB	2.174	85.0 KB	39.1 KB	2.714	85.0 KB	39.1 KB	2.714	85.0 KB	72.8 KB	1.168
+												
+bmps.tar	1.1 MB	79 KB	13.924	1.1 MB	79 KB	13.924	1.1 MB	79 KB	13.924	1.1 MB	903 KB	1.218
+												
+code.txt	70.6 KB	23.9 KB	2.954	70.6 KB	23.9 KB	2.954	70.6 KB	23.9 KB	2.954	70.6 KB	30.2 KB	2.338
+												
+code2.txt	56.3 KB	20 KB	2.815	56.3 KB	20 KB	2.815	56.3 KB	20 KB	2.815	56.3 KB	23.2 KB	2.427
+												
+edit.exe	230 KB	152 KB	1.513	230 KB	148 KB	1.554	230 KB	152 KB	1.533	230 KB	244 KB	0.943
+												
+frosty.jpg	123 KB	159 KB	0.774	123 KB	167 KB	0.737	123 KB	159 KB	0.774	123 KB	173 KB	0.711
+												
+gone_fishing.bmp	48 KB	10.3 KB	4.66	48 KB	10.3 KB	4.66	48 KB	10.3 KB	4.66	48 KB	11.2 KB	4.286
+												
+large.txt	1.16 MB	490 KB	2.367	1.16 MB	515 KB	2.252	1.16 MB	490 Kb	2.073	1.16 MB	590 KB	1.966
+												
+Lego-big.gif	91.1 KB	119 KB	0.766	91.1 KB	119 KB	0.766	91.1 KB	119 KB	0.766	91.1 KB	125 KB	0.729
+												
+medium.txt	24.8 KB	12.2 KB	2.033	24.8 KB	12.2 KB	2.033	24.8 KB	12.2 KB	2.033	24.8 KB	12.8 KB	1.9375
+												
+texts.tar	1.31 MB	583 KB	2.247	1.31 MB	576 KB	2.274	1.31 MB	583 KB	2.245	1.31 MB	988 KB	1.326
+												
+wacky.bmp	900 KB	3.85 KB	233.766	900 KB	3.85 KB	233.766	900 KB	3.85 KB	233.766	900 KB	4.19 KB	214.797
+												
+winnt256.bmp	454 KB	88.9 KB	5.107	454 KB	88.9 KB	5.107	454 KB	88.9 KB	5.107	454 KB	240 KB	1.892
